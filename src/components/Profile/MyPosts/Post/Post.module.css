@@ -1,0 +1,12 @@
+.item {
+    color: darkorange;
+    margin: 20px;
+    background-color: azure;
+}
+
+.item img {
+    width: 100px;
+    background-color: dimgray;
+    border-radius: 100px;
+    margin: 5px;
+}

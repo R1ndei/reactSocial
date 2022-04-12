@@ -1,0 +1,9 @@
+.but {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.but:hover {
+    background-color: dimgray;
+}

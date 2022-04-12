@@ -1,0 +1,48 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 4fr 10fr;
+    font-family: "Comic Sans MS", emoji;
+
+}
+
+.dialogs .dialogsItems {
+    background-color: dimgray;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 40px;
+    border: azure solid;
+}
+
+.dialogsItems .active {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.dialogsItems .dialog {
+    margin: 30px;
+
+}
+
+.dialogs .messages {
+    margin: 50px;
+    background-color: dimgray;
+    border-radius: 40px;
+    border: azure solid;
+}
+
+.messages .message {
+    margin: 50px;
+
+}
+
+.dialogs .dialogsItems:hover {
+    background-color: darkgray;
+    box-shadow: black -10px -10px 10px;
+}
+
+.dialogs .messages:hover {
+    background-color: darkgray;
+    box-shadow: black -10px -10px 10px;
+}

@@ -1,0 +1,31 @@
+.nav {
+    grid-area: n;
+    background-color: dimgray;
+    border-radius: 30px;
+    border: black 3px solid;
+}
+
+.item a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Comic Sans MS", emoji;
+}
+
+.item a.active {
+    color: black;
+    font-size: 30px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+
+.item a:hover:not(.active) {
+    background-color: darkgray;
+    border-radius: 10px;
+    padding: 10px;
+}
